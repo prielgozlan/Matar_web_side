@@ -555,7 +555,7 @@ nav {
 
     .box_about_us {
         width: 100%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         min-height: 500px;
         background: white;
         padding: 10px;
@@ -574,8 +574,8 @@ nav {
     
     .box_a1 {
         min-height: 450px;
-        min-width: 450px;
-        border: 2px solid black;
+        max-width: 400px;
+        /* border: 2px solid black; */
         border-radius: 10px;
         justify-content: center;
         /* justify-content: space-between; */
@@ -584,7 +584,7 @@ nav {
     .box_a2 {
         max-width: 280px;
         min-height: 450px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         border-radius: 10px;
     
         h3 {
@@ -603,7 +603,7 @@ nav {
     .box_a3 {
         max-width:280px;
         min-height: 450px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         border-radius: 10px;
         background-image: url("../img/imgProfil.jpg");
         background-size: cover;
@@ -689,7 +689,7 @@ nav {
     
     .box_about_us {
         width: 100%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         min-height: 500px;
         background: white;
         padding: 10px;
@@ -708,8 +708,8 @@ nav {
     
     .box_a1 {
         min-height: 400px;
-        min-width: 400px;
-        border: 2px solid black;
+        max-width: 300px;
+        /* border: 2px solid black; */
         border-radius: 10px;
         justify-content: center;
         /* justify-content: space-between; */
@@ -737,7 +737,7 @@ nav {
     .box_a3 {
         max-width: 230px;
         min-height: 450px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         border-radius: 10px;
         background-image: url("../img/imgProfil.jpg");
         background-size: cover;
