@@ -554,7 +554,7 @@ nav {
     }
 
     .box_about_us {
-        width: 100%;
+        max-width: 768px;
         /* border: 2px solid black; */
         min-height: 500px;
         background: white;
@@ -574,7 +574,7 @@ nav {
     
     .box_a1 {
         min-height: 450px;
-        max-width: 400px;
+        min-width: 100%;
         /* border: 2px solid black; */
         border-radius: 10px;
         justify-content: center;
@@ -688,7 +688,7 @@ nav {
     }
     
     .box_about_us {
-        width: 100%;
+        max-width: 453px;
         /* border: 2px solid black; */
         min-height: 500px;
         background: white;
@@ -708,7 +708,7 @@ nav {
     
     .box_a1 {
         min-height: 400px;
-        max-width: 300px;
+        min-width: 10px;
         /* border: 2px solid black; */
         border-radius: 10px;
         justify-content: center;
@@ -718,7 +718,7 @@ nav {
     .box_a2 {
         max-width: 230px;
         min-height: 450px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         border-radius: 10px;
     
         h3 {
