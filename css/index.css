@@ -582,7 +582,7 @@ nav {
     }
     
     .box_a2 {
-        max-width: 300px;
+        max-width: 280px;
         min-height: 450px;
         border: 2px solid black;
         border-radius: 10px;
@@ -601,7 +601,7 @@ nav {
     }
     
     .box_a3 {
-        max-width:300px;
+        max-width:280px;
         min-height: 450px;
         border: 2px solid black;
         border-radius: 10px;
