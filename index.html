@@ -20,7 +20,7 @@
         <div class="box_w">
             <h4>דברו איתנו</h4>
             <div>
-                <a href="https://wa.me/972555508778" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://wa.me/972555508778" target="_blank" ><img src="img/whatsapp.png" alt="whatsapp"></a>
             </div>
             <div>
             <a href="tel:972555508778" class="call-button"><img src="img/images_preview_rev_1.png"></a>
@@ -32,10 +32,11 @@
             </div>
 
             <nav id="nav_open" class="col-sm-9 box_s2">
-                <a class="box_a" href="#">שירותים</a>
-                <a class="box_a" href="#">מערכות VRF</a>
-                <a class="box_a" href="#">אודותינו</a>
-                <a class="box_a" href="#">צור קשר</a>
+                <a class="box_a" onclick=scrollToSection1()>שירותים</a>
+                <a class="box_a" onclick=scrollToSection2()>אודותינו</a>
+                <a class="box_a" onclick=scrollToSection3()>מערכות VRF </a>
+                <a class="box_a" onclick=scrollToSection4()>הפרויקטים שלנו</a>
+                <a class="box_a" onclick=scrollToSection5()>צור קשר</a>
             </nav>
 
             <div class="burger col-sm-9 box_s2">
@@ -46,15 +47,15 @@
             </div>
     </header>
     <main>
-        <div class="box_main">
+        <div  class="box_main">
             <div class="tital">
-                <h1>מערכות מיזוג אוויר FRV</h1>
-                <h2> לתעשייה, מבני ציבור, משרדים ומסחר</h2>
+                <h1 >מערכות מיזוג אוויר FRV</h1>
+                <h2 id="section1"> לתעשייה, מבני ציבור, משרדים ומסחר</h2>
             </div>
         </div>
         <div class="box_main">
-            <div class="box_doing row">
-                <h4>מה אנחנו יודעים לעשות</h4>
+            <div  class="box_doing row">
+                <h4 >מה אנחנו יודעים לעשות</h4>
                 <div class="box_d_1" data-aos="fade-down">
                     <div class="box_d_2">
                         <i class="fa fa-wrench" aria-hidden="true"></i>
@@ -108,9 +109,10 @@
 
             </div>
         </div>
+        <div id="section2"></div>
         <div class="box_about_us">
-            <div class="box_a1 row">
-                <h1>אודותינו</h1>
+            <div  class="box_a1 row">
+                <h1 >אודותינו</h1>
                 <div class="box_a2" data-aos="fade-left">
                     <h3>אז מי אנחנו</h3>
                     <p>חברת Matar היא חברה חדשנית המתמחה בפתרונות מיזוג אוויר מתקדמים. למרות שאנחנו חברה צעירה, אנחנו
@@ -126,7 +128,8 @@
                 </div>
             </div>
         </div>
-        <div class="box_skill">
+        <div id="section3"></div>
+        <div  class="box_skill">
 
             <div class="box_s10 row">
                 <h1>תכנון, הקמה ויישום מערכות VRF מתקדמות
@@ -171,6 +174,7 @@
             </div>
 
         </div>
+        <div id="section4"></div>
         <div class="box_carousel">
 
             <div class="box_car">
@@ -212,7 +216,9 @@
             </div>
         </div>
     </main>
+    <div id="section5"></div>
     <footer>
+        
         <div class="box_footer">
             <div class="box_f10 row">
                 <h1>צרו קשר</h1>
@@ -227,13 +233,13 @@
                         כתובת : כל הארץ</p>
                 </div>
                 <div class="box_f30">
-                    <p>צוות המומחים של matar מערכות מיזוג אוויר ישמחו לעמוד לרשותך בכל נושא. אנו ערוכים להעניק בזמן
+                    <p>צוות המומחים של MATAR מערכות מיזוג אוויר ישמחו לעמוד לרשותך בכל נושא. אנו ערוכים להעניק בזמן
                         מהיר, שירות איכותי, מקצועי והוגן.
 
                     </p>
                 </div>
                 <div class="box_f_img">
-                    <img src="img/logo.png">
+                    <a href="index.html"><img src="img/logo.png"></a>
                 </div>
             </div>
 

@@ -21,6 +21,8 @@ header {
 }
 .box_s2{
     font-size: 20px;
+    cursor: pointer;
+
 }
 .box_a:hover{
     color: white;
