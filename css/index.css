@@ -75,7 +75,6 @@ nav {
         margin: 10px;
     }
 }
-
 .box_main{
     margin-top: 150px;
     display: flex;
@@ -104,6 +103,12 @@ nav {
     }
     
 }
+
+
+
+
+
+
 .box_doing{
     width: 100%;
     min-height: 700px;
@@ -387,7 +392,7 @@ nav {
         position: absolute;
         background: rgba(192, 192, 192, 0.74);
         width: 30%;
-        min-height: 100%;
+        min-height: 125%;
         left: 0px;
         top: 200px;
     }
@@ -426,7 +431,7 @@ nav {
     .box_w {
         position: absolute;
         right: 3%;
-        top: 550px;
+        top: 400px;
         /* background: black; */
         /* color: white; */
 
@@ -435,8 +440,85 @@ nav {
             width: 50px;
             height: 50px;
             margin: 0 20px;
+            margin: 10px;
+            
         }
     }
+
+    
+.box_main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+    
+    
+}
+.tital{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    
+
+    h1{
+        font-size: 70px;
+        color: white;
+    }
+    h2{
+        font-size: 40px;
+        color: white;
+    }
+    
+}
+
+.box_doing{
+    width: 100%;
+    min-height: 700px;
+    background: white;
+    text-align: center;
+    justify-content: center;
+    h4{
+        margin-top: 100px;
+        font-size: 50px;
+        
+    }
+}
+.box_d_1{
+    max-width:250px ;
+    max-height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: black 10px 10px;
+    margin: 20px;
+    i{
+        font-size: 50px;
+        padding-right: 90px;
+    }
+}
+.box_d_2{
+    margin-top:10px;
+    max-width: 80px;
+    max-height: 120px;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    img{
+        margin-right:50px ;
+        max-height: 130px;
+        max-width: 130px;
+        border-radius: 30px;
+        
+    }
+}
+
+
+
+
+
+
 
 }
 
@@ -446,7 +528,7 @@ nav {
 
         img {
             width: 200px;
-            height: 100px;
+            height: 120px;
         }
     }
 
@@ -455,9 +537,9 @@ nav {
     nav {
         display: none;
         position: absolute;
-        background: rgba(192, 192, 192, 0.74);
+        /* background: rgba(192, 192, 192, 0.74); */
         width: 100px;
-        min-height: 100%;
+        min-height: 125%;
         left: 0;
         top: 200px;
     }
@@ -496,7 +578,7 @@ nav {
     .box_w {
         position: absolute;
         right: 3%;
-        top: 550px;
+        top: 400px;
         /* background: black; */
         /* color: white; */
 
@@ -505,6 +587,7 @@ nav {
             width: 50px;
             height: 50px;
             margin: 0 20px;
+            margin: 10px;
         }
     }
 
