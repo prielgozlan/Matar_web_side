@@ -645,7 +645,7 @@ nav {
 .box_footer {
     max-width: 768px;
     min-height: 500px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background: gray;
     margin-top: 250px;
     display: flex;
@@ -663,7 +663,7 @@ nav {
 .box_f10 {
     min-width: 400px;
     min-height: 400px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 50px;
     justify-content: center;
 
@@ -680,7 +680,7 @@ nav {
     max-width: 280px;
     min-height: 350px;
     text-align: right;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     h3 {
         font-size: 30px;
@@ -703,7 +703,7 @@ nav {
 .box_f30 {
     max-width: 280px;
     min-height: 350px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     h3 {
         font-size: 30px;
@@ -721,7 +721,7 @@ nav {
 .box_f_img {
     min-width: 400px;
     max-height: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     img {
         width: 200px;
@@ -863,7 +863,7 @@ nav {
         background-size: cover;
     
     }
-    /* .box_footer {
+    .box_footer {
         max-width: 453px;
         min-height: 500px;
         background: gray;
@@ -883,11 +883,11 @@ nav {
     .box_f10 {
         max-width: 453px;
         min-height: 400px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin: 50px;
         justify-content: center;
     
-        /* justify-content: space-between; */
+         justify-content: space-between;
         h1 {
             font-size: 40px;
     
@@ -900,7 +900,7 @@ nav {
         min-width: 250px;
         min-height: 350px;
         text-align: right;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     
         h3 {
             font-size: 30px;
@@ -923,7 +923,7 @@ nav {
     .box_f30 {
         min-width: 250px;
         min-height: 350px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     
         h3 {
             font-size: 30px;
@@ -946,6 +946,6 @@ nav {
             width: 200px;
             max-height: 200px;
         }
-    } */
+    } 
     
 }
