@@ -1,7 +1,7 @@
 body {
     direction: rtl;
     background-image: url("../img/pexels-dbaler-9805552.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     min-height: 1000px;
 
