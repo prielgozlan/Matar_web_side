@@ -1,0 +1,10 @@
+ <script>
+    nagishli_config = {
+      
+      // צבע התוסף - האפשרויות הן Blue (כחול), Red (אדום), Green (ירוק), Purple (סגול), Pink (ורוד), Yellow (צהוב), Gray (אפור), Orange (כתום), Brown (חום), Turquoise (טורקיז) ו-Black (שחור)
+      color: "blue",
+      // שפת התוסף, he - עברית, en - אנגלית
+      language: "he"
+    };
+  </script>
+  <script src="nagishli.js" charset="utf-8" defer></script>
