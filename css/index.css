@@ -689,7 +689,7 @@ nav {
 
     .box_a3 {
         max-width: 280px;
-        max-height: 350px;
+        min-height: 350px;
         /* border: 2px solid black; */
         border-radius: 10px;
         background-image: url("../img/imgProfil.jpg");
@@ -957,12 +957,12 @@ nav {
 
     .box_a3 {
         max-width: 230px;
-        max-height: 350px;
-        /* border: 2px solid black; */
+        min-height: 250px;
+        /* border: 22px solid black; */
         border-radius: 10px;
         background-image: url("../img/imgProfil.jpg");
         background-size: cover;
-
+        
     }
 
     .box_footer {
