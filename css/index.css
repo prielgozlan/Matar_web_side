@@ -487,6 +487,26 @@ nav {
         max-height: 200px;
     }
 }
+.box5 {
+    background: black;
+    text-align: center;
+    margin: 0;
+    min-height: 50px;
+    padding: 10px;
+
+    h4 {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    i {
+
+        color: white;
+        font-size: 40px;
+
+    }
+}
 
 
 
