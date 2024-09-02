@@ -1,7 +1,7 @@
 body {
     direction: rtl;
     background-image: url("../img/imgof2.jpg");
-    background-size: 100%;
+    background-size: 100% 900px;
     background-position: calc();
     min-height: 1000px;
     margin: auto 0;
@@ -320,7 +320,7 @@ nav {
     max-width: 500px;
     min-height: 350px;
     /* border: 2px solid black; */
-    background-image: url("../img/imgof14.jpeg");
+    background-image: url("../img/office.jpg");
     background-size: cover;
 
     /* border-radius: 10px; */
@@ -343,7 +343,7 @@ nav {
     max-width: 500px;
     min-height: 350px;
     /* border: 2px solid black; */
-    background-image: url("../img/imgof14.jpeg");
+    background-image: url("../img/ac\ home\ \(2\).jpg");
     background-size: cover;
 
     /* border-radius: 10px; */
@@ -493,6 +493,9 @@ nav {
 
 
 @media (max-width:768px) {
+    body{
+        background-size: 100% 600px;
+    }
     .box {
         max-width: 600px;
         /* max-height: 200px; */
@@ -834,6 +837,9 @@ nav {
 }
 
 @media (max-width:453px) {
+    body{
+        background-size: 400px 800px;
+    }
     .box {
         max-width: 100%;
 
