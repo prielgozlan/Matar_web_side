@@ -212,8 +212,9 @@ nav {
     min-height: 450px;
     border: 2px solid black;
     border-radius: 10px;
-    background-image: url("../img/imgProfil.jpg");
+    background-image: url("../img/profil.jpg");
     background-size: cover;
+    background-position: 80%;
 
 }
 
@@ -712,7 +713,7 @@ nav {
         min-height: 350px;
         /* border: 2px solid black; */
         border-radius: 10px;
-        background-image: url("../img/imgProfil.jpg");
+        background-image: url("../img/profil.jpg");
         background-size: cover;
 
     }
@@ -980,7 +981,7 @@ nav {
         min-height: 250px;
         /* border: 22px solid black; */
         border-radius: 10px;
-        background-image: url("../img/imgProfil.jpg");
+        background-image: url("../img/profil.jpg");
         background-size: cover;
         
     }
