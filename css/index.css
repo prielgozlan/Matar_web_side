@@ -299,7 +299,7 @@ nav {
     min-height: 350px;
     /* border: 2px solid black; */
     background-image: url("../img/imgof8.jpg");
-    background-size: cover;
+    background-size: 100% 350px;
 
     /* border-radius: 10px; */
     /* margin-top: 50px; */
