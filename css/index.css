@@ -508,7 +508,17 @@ nav {
 
     }
 }
-
+.accessibilit{
+    min-width: 80%;
+    min-height: 500px;
+    background: white;
+    text-align: center;
+    p{
+        font-size: 22px;
+        text-align: right;
+        padding: 10px;
+    }
+}
 
 
 
