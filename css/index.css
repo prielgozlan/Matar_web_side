@@ -1,8 +1,8 @@
 body {
   direction: rtl;
+  width: -webkit-fill-available;
   background-image: url("../img/imgof2.jpg");
-  background-size: 100% 900px;
-  background-position: calc();
+  background-size: 100% 1000px;
   min-height: 1000px;
   margin: auto 0;
   background-repeat: no-repeat;
@@ -67,6 +67,7 @@ nav {
   padding: 15px 30px;
   bottom: 5svh;
   z-index: 9;
+  right: -15px;
   /* color: white; */
   text-align: center;
   border-top-left-radius: 15px;
@@ -193,6 +194,7 @@ nav {
 }
 
 .box_a1 {
+  display: flex;
   justify-content: center;
 }
 
@@ -217,8 +219,8 @@ nav {
 }
 
 .box_a3 {
-  max-width: 500px;
-  min-height: 450px;
+  width: 500px;
+  height: 450px;
   border: 2px solid black;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -464,7 +466,8 @@ nav {
   }
 
   a:hover {
-    color: white;
+    scale: 1.1;
+    color: gray;
     /* צבע הלינק כאשר מעבירים עליו את העכבר */
   }
 }
