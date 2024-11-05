@@ -527,7 +527,7 @@ nav {
     background-size: 100% 600px;
   }
   header {
-    display: unset;
+    display: block;
     padding: 0;
   }
   .box {
