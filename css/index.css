@@ -8,13 +8,14 @@ body {
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
-
+div {
+  border: 3px solid red;
+}
 header {
   padding: 0 25px;
   background: rgb(255, 255, 255);
   box-shadow: 0 0 15px black;
   display: flex;
-
   position: sticky;
   top: 0;
   z-index: 9;
@@ -539,7 +540,7 @@ nav {
     position: relative;
     z-index: 9;
     img {
-      height: 120px;
+      height: 100px;
     }
   }
 
