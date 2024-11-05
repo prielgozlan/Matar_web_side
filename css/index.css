@@ -43,7 +43,7 @@ header {
   display: flex;
   align-items: center;
   img {
-    width: min-content;
+    width: auto;
     height: 100px;
     margin: 10px 20px;
   }
