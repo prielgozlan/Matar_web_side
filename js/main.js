@@ -10,5 +10,5 @@ setTimeout(() => {
     headerLogoSrc = "/img/logo-mini.jpg";
   }
   let headerLogoEl = document.querySelector(".headerLogoImg");
-  headerLogoEl.src = window.origin + headerLogoSrc;
+  headerLogoEl.src = headerLogoSrc;
 }, 500);
