@@ -545,11 +545,6 @@ nav {
     display: none;
     position: absolute;
     background: rgba(192, 192, 192);
-    width: 30%;
-    min-height: 125%;
-    left: 0px;
-    top: 140px;
-    z-index: 1;
   }
 
   nav a {
