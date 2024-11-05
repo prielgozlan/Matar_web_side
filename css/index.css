@@ -13,6 +13,7 @@ header {
   padding: 0 25px;
   background: rgb(255, 255, 255);
   box-shadow: 0 0 15px black;
+  display: flex;
 
   position: sticky;
   top: 0;
@@ -526,6 +527,7 @@ nav {
     background-size: 100% 600px;
   }
   header {
+    display: unset;
     padding: 0;
   }
   .box {
