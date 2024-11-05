@@ -5,6 +5,8 @@ let headerLogoSrc =
 
 setTimeout(() => {
   window.scroll(0, 0);
+});
+setTimeout(() => {
   let headerLogoEl = document.querySelector(".headerLogoImg");
   headerLogoEl.src = window.origin + headerLogoSrc;
-});
+}, 500);
