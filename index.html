@@ -16,51 +16,53 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="/נגיש לי/docs/hebrew/התקנה/style.css"> -->
     <link rel="stylesheet" href="./css/index.css">
-    
-  <script>
-    nagishli_config = {
 
-      // צבע התוסף - האפשרויות הן Blue (כחול), Red (אדום), Green (ירוק), Purple (סגול), Pink (ורוד), Yellow (צהוב), Gray (אפור), Orange (כתום), Brown (חום), Turquoise (טורקיז) ו-Black (שחור)
-      color: "blue",
-      // שפת התוסף, he - עברית, en - אנגלית
-      language: "he"
-    };
-  </script>
-  <script src="/נגיש לי/nagishli.js" charset="utf-8" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S4RDD8SR0"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-3S4RDD8SR0');
+</script>
 </head>
 
 <body>
-    <header>
-        <div class="box_w">
-            <h4>דברו איתנו</h4>
+    <div class="box_w">
+        <h4>דברו איתנו</h4>
+        <div class="info-ico">
             <div>
                 <a href="https://wa.me/972555508778?text=היי%20אשמח%20לקבל%20הצעת%20מחיר.%0Aבנוגע%20ל" target="_blank"><img src="img/whatsapp.png" alt="whatsUp"></a>
             </div>
             <div>
                 <a href="tel:972555508778" class="call-button"><img src="img/images_preview_rev_1.png" alt="phone"></a>
             </div>
+
         </div>
-        <div class="row box">
-            <div class="col-sm-3 box_s1">
-                <a href="index.html"><img src="img/logo.png" alt="logo to wabside"></a>
+    </div>
+    <header>
+        <div class=" box">
+            <div class=" box_s1">
+                <a href="index.html"><img class="headerLogoImg" src="img/logo.png" alt="logo to wabside"></a>
             </div>
 
-            <nav id="nav_open" class="col-sm-9 box_s2">
-                <a class="box_a" onclick=scrollToSection1() alt="buttom" href="#services">שירותים</a>
-                <a class="box_a" onclick=scrollToSection2() alt="buttom" href="#about">אודותינו</a>
-                <a class="box_a" onclick=scrollToSection3() alt="buttom" href="#sistem VRF VRV">מערכות VRF-VRV </a>
-                <a class="box_a" onclick=scrollToSection4() alt="buttom" href="#projects">הפרויקטים שלנו</a>
-                <a class="box_a" onclick=scrollToSection5() alt="buttom" href="#contact">צור קשר</a>
-            </nav>
 
-            <div class="burger col-sm-9 box_s2">
+
+            <div class="burger">
                 <!-- כדי שהסקריפט יעבוד צריך להוסיף איי די לבורגר -->
                 <i id="burger_btn" class="fa fa-bars" aria-hidden="true"></i>
 
 
             </div>
-
+        </div>
+        <nav id="nav_open" class="box_s2">
+            <a class="box_a" onclick=scrollToSection1() alt="buttom" href="#services">שירותים</a>
+            <a class="box_a" onclick=scrollToSection2() alt="buttom" href="#about">אודותינו</a>
+            <a class="box_a" onclick=scrollToSection3() alt="buttom" href="#sistem VRF VRV">מערכות VRF-VRV </a>
+            <a class="box_a" onclick=scrollToSection4() alt="buttom" href="#projects">הפרויקטים שלנו</a>
+            <a class="box_a" onclick=scrollToSection5() alt="buttom" href="#contact">צור קשר</a>
+        </nav>
     </header>
     <main>
 
@@ -76,71 +78,74 @@
                 <h4>מה אנחנו יודעים לעשות</h4>
                 <div class="box_d_1 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="box_d_2">
-                        <i class="fa fa-wrench" aria-hidden="true"></i>
                         <img src="img/pexels-cottonbro-4101143.jpg" alt="Picture of air conditioners">
 
                     </div>
-                    <br>
-                    <h2>ייעוץ ותכנון הנדסי</h2>
-                    <br>
+                    <div class="info">
+                        <h2><span> <i class="fa fa-wrench" aria-hidden="true"></i></span>ייעוץ ותכנון הנדסי</h2>
+                    
 
-                    <h5>תכנון יעיל ומקצועי של מערכת VRF - VRV בהתאם לדרישות המבנה וברמת הגימור הגבוהה ביותר.</h5>
+                        <h5>תכנון יעיל ומקצועי של מערכת VRF - VRV בהתאם לדרישות המבנה וברמת הגימור הגבוהה ביותר.</h5>
+                    </div>
+
                 </div>
                 <div class="box_d_1 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="box_d_2">
-                        <i class="fa fa-wrench" aria-hidden="true"></i>
-                        <br>
+
                         <img src="img/pexels-pixabay-459728.jpg" alt="Picture of air conditioners">
 
 
                     </div>
-                    <br>
-                    <h2>התקנת מערכות שחרור אוויר </h2>
-                    <br>
-                    <h5>מערכות פינוי אוויר לחניונים ,בתי מלון ,אולמות אירועים ומפעלים.</h5>
+                    <div class="info">
+
+                        <h2><span> <i class="fa fa-wrench" aria-hidden="true"></i></span> התקנת מערכות שחרור אוויר </h2>
+                    
+                        <h5>מערכות פינוי אוויר לחניונים ,בתי מלון ,אולמות אירועים ומפעלים.</h5>
+                    </div>
+
                 </div>
                 <div class="box_d_1 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="box_d_2">
-                        <i class="fa fa-wrench" aria-hidden="true"></i>
                         <img src="img/imgof13.jpg" alt="Picture of air conditioners">
 
                     </div>
-                    <br>
-                    <h2>התקנת מערכות מיזוג אוויר
-                    </h2>
-                    <br>
-                    <h5>התקנת מערכות VRF - VRV מהחברות המובילות בשוק עם פתרונות יצירתיים וחדשניים.</h5>
+                    <div class="info">
+
+                        <h2><span> <i class="fa fa-wrench" aria-hidden="true"></i></span>התקנת מערכות מיזוג אוויר
+                        </h2>
+                        
+                        <h5>התקנת מערכות VRF - VRV מהחברות המובילות בשוק עם פתרונות יצירתיים וחדשניים.</h5>
+                    </div>
+
                 </div>
                 <div class="box_d_1 col-md-6 col-sm-12" data-aos="fade-down">
                     <div class="box_d_2">
-                        <i class="fa fa-wrench" aria-hidden="true"></i>
                         <img src="img/pexels-jose-andres-pacheco-cortes-3641213-5463575.jpg" alt="Picture of air conditioners">
-
                     </div>
-                    <br>
-                    <br>
-                    <h2>שירות ותחזוקה
-                    </h2>
-                    <br>
-                    <h5>תחזוקת מערכות, תיקונים בחירום ותחזוקה שנתית עם צוות מנוסה הערוך למענה מהיר.</h5>
+                    
+                    <div class="info">
+
+                        <h2><span> <i class="fa fa-wrench" aria-hidden="true"></i></span> שירות ותחזוקה</h2>
+                        
+                        <h5>תחזוקת מערכות, תיקונים בחירום ותחזוקה שנתית עם צוות מנוסה הערוך למענה מהיר.</h5>
+                    </div>
                 </div>
 
             </div>
         </div>
         <div id="section2"></div>
         <div class="box_about_us">
-            <div class="box_a1 row">
-                <h1>אודותינו</h1>
-                <div class="box_a2" data-aos="fade-left">
-                    <h3>אז מי אנחנו</h3>
-                    <p>חברת Matar היא חברה חדשנית המתמחה בפתרונות מיזוג אוויר מתקדמים. חברתנו מספקת ללקוחותיה את החדשנות  והטכנולוגיה המתקדמת ביותר כדי לספק את השירות הטוב ביותר , הצוות שלנו מורכב מאנשי מקצוע בעלי תעודות מסמכות ,ובעלי נסיון רב שנים ,המתחייבים להעניק שרות ומקצועיות ברמה הגבוה ביותר.
+            <h1>אודותינו</h1>
+            <div class="box_a1" data-aos="fade-left">
+                    
+                    <div class="box_a2" >
+                        <h3>אז מי אנחנו</h3>
+                        <p>חברת Matar היא חברה חדשנית המתמחה בפתרונות מיזוג אוויר מתקדמים. חברתנו מספקת ללקוחותיה את החדשנות  והטכנולוגיה המתקדמת ביותר כדי לספק את השירות הטוב ביותר , הצוות שלנו מורכב מאנשי מקצוע בעלי תעודות מסמכות ,ובעלי נסיון רב שנים ,המתחייבים להעניק שרות ומקצועיות ברמה הגבוה ביותר.
+                        </p>
+                    </div>
+                    <div class="box_a3" alt="Photo of the manager" >
+                    </div>
 
-
-                    </p>
-
-                </div>
-                <div class="box_a3" alt="Photo of the manager" data-aos="fade-left">
-                </div>
             </div>
         </div>
         <div id="section3"></div>
@@ -199,8 +204,8 @@
         </div>
         <div id="section4"></div>
         <div class="box_carousel">
+            <h1>הפרויקטים שלנו</h1>
             <div class="box_car">
-                <h1>הפרויקטים שלנו</h1>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -228,66 +233,66 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
                             aria-label="Slide 12"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" >
                         <div class="carousel-item active">
                             <img src="img/imgof13.jpg"
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
+                                
                                 <h2>פרויקט בית פרטי</h2>
-                            
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof1.jpg"
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט שיחרור אוויר</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof3.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט שיחרור אוויר</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof4.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2> פרויקט מיגוז פס יצור למפעל</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof5.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט שיחרור אוויר</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof6.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט צ'ילר</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof7.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט צ'ילר</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof8.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט מערכת קירור</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof9.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט מערכת קירור</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof10.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט מערכת קירור</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof11.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט מערכת קירור</h2>
                         </div>
                         <div class="carousel-item">
                             <img src="img/imgof12.jpg" 
-                                class="d-block w-100" alt="Picture of air conditioners">
+                                class="d-block " alt="Picture of air conditioners">
                                 <h2>פרויקט מערכת קירור</h2>
                         </div>
                     </div>
@@ -320,7 +325,7 @@
                         class="email-button" alt="logo of mail"> -->
                         <a href="mailto:matar_@outlook.co.il?body=היי%20אשמח%20לקבל%20הצעת%20מחיר.%0Aפרטי%20חזרה%20ללקוח.%0Aטל:%0Aתיאור הבעיה בקצרה:" class="email-button" title="Send an email"
                         class="email-button" alt="logo of mail">
-                          >
+                        
                           
                         <p><i class="fa fa-envelope" aria-hidden="true"></i>
                             דוא"ל : matar_@outlook.co.il</p>
@@ -345,11 +350,6 @@
         </div>
 
 
-
-
-
-
-
     </footer>
 </div>
 <div class="box5">
@@ -362,28 +362,39 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
 <script>
     AOS.init();
 </script>
 <script src="js/burger.js"></script>
+<script src="js/main.js" ></script> 
+<script>
+    nagishli_config = {
 
+      // צבע התוסף - האפשרויות הן Blue (כחול), Red (אדום), Green (ירוק), Purple (סגול), Pink (ורוד), Yellow (צהוב), Gray (אפור), Orange (כתום), Brown (חום), Turquoise (טורקיז) ו-Black (שחור)
+      color: "blue",
+      // שפת התוסף, he - עברית, en - אנגלית
+      language: "he"
+    };
+  </script>
+  <script src="/נגיש לי/nagishli.js" charset="utf-8" defer></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/672b29e82480f5b4f5994e3f/1ic09ncun';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </html>
